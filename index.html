@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>RVS Departmental Stores</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+<div class="header">
+
+<div class="header-left">
+
+<img src="img3.png">
+
+<div class="brand">
+<div class="top">RVS</div>
+<div class="bottom">Departmental Stores</div>
+</div>
+
+</div>
+
+<div class="menu-icon" onclick="toggleMenu()">☰</div>
+
+</div>
+
+
+<div class="menu-panel" id="menuPanel">
+
+<div class="menu-close" onclick="toggleMenu()">✕</div>
+
+<p>Menu</p>
+
+</div>
+
+
+<nav>
+
+<a href="#gallery">Gallery</a>
+<a href="#upload">Upload Bill</a>
+<a href="#contact">Contact</a>
+
+</nav>
+
+
+<div class="hero">
+
+<h2>RVS Departmental Stores</h2>
+
+<p>People's Own Shopping Paradise !!....</p>
+
+</div>
+
+
+<section id="gallery">
+
+<h3>Gallery</h3>
+
+<div class="gallery" id="galleryScroll">
+
+<img src="img1.jpg" class="active">
+<img src="img2.png">
+<img src="img3.png">
+
+</div>
+
+</section>
+
+
+<section id="upload">
+
+<h3>Upload Your Bill</h3>
+
+<form id="billForm">
+
+<input type="text" id="custName" placeholder="Your Name" required>
+
+<input type="tel" id="custPhone" placeholder="Phone Number" required>
+
+<input type="tel" id="custPincode" placeholder="Pincode" required>
+
+<p id="pincodeError" class="error-text"></p>
+
+<textarea id="custMsg" placeholder="Additional Message"></textarea>
+
+<button type="button" onclick="sendWhatsApp()">Send</button>
+
+</form>
+
+<p style="font-size:13px;color:#666;margin-top:10px;">
+WhatsApp will open with your message ready. Attach your bill image there.
+</p>
+
+</section>
+
+
+<section id="contact">
+
+<h3>Contact Us</h3>
+
+<div class="contact">
+
+<div class="contact-row">
+<b>Phone:</b> 9942025493
+<a href="tel:9942025493">Call</a>
+</div>
+
+<div class="contact-row">
+<b>WhatsApp:</b> 9444517649
+<a href="https://wa.me/919444517649">Chat</a>
+</div>
+
+<div class="contact-row">
+<b>Email:</b> ponraj1234a@gmail.com
+<a href="mailto:ponraj1234a@gmail.com">Email</a>
+</div>
+
+<div class="contact-row">
+<b>Google Page</b>
+<a href="https://g.page/rvsdepstores">Open</a>
+</div>
+
+<div class="contact-row">
+
+<b>Address:</b><br>
+
+45, Thirumalai Nagar,<br>
+Opp. Raagam Exports,<br>
+Near Canara Bank,<br>
+Kangeyam Road, Nallur,<br>
+Tiruppur - 641606,
+
+</div>
+
+<div class="contact-row">
+
+<b>Opening Hours:</b><br>
+
+8am - 10pm<br>
+(On Fridays: 8am - 10am & 4pm - 10pm)
+
+</div>
+
+<iframe height="300"
+src="https://www.google.com/maps?q=RVS+Departmental+Stores+Tiruppur&output=embed">
+</iframe>
+
+</div>
+
+</section>
+
+
+<footer>
+
+© SGCC OFFICIAL
+
+</footer>
+
+
+<a class="call-float" href="tel:+919444517649">📞</a>
+
+<script src="script.js"></script>
+
+</body>
+</html>
